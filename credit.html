@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Score Form</title>
+</head>
+<body>
+    <h1>Enter Credit Information</h1>
+    <form action="/submit" method="POST">
+        
+        Month: <input type="text" name="Month" required><br>
+        Age: <input type="number" name="Age" required><br>
+        
+        Occupation: <input type="text" name="Occupation" required><br>
+        Annual Income: <input type="number" name="Annual_Income" step="0.01" required><br>
+        Monthly In-hand Salary: <input type="number" name="Monthly_Inhand_Salary" step="0.01" required><br>
+        Number of Bank Accounts: <input type="number" name="Num_Bank_Accounts" required><br>
+        Number of Credit Cards: <input type="number" name="Num_Credit_Card" required><br>
+        Interest Rate: <input type="number" name="Interest_Rate" required><br>
+        Number of Loans: <input type="number" name="Num_of_Loan" required><br>
+        
+        Days Delayed from Due Date: <input type="number" name="Delay_from_due_date" required><br>
+        Number of Delayed Payments: <input type="number" name="Num_of_Delayed_Payment" required><br>
+        Changed Credit Limit: <input type="number" name="Changed_Credit_Limit" step="0.01" required><br>
+        Number of Credit Inquiries: <input type="number" name="Num_Credit_Inquiries" required><br>
+        Credit Mix: <input type="number" name="Credit_Mix" required><br>
+        Outstanding Debt: <input type="number" name="Outstanding_Debt" step="0.01" required><br>
+        Credit Utilization Ratio: <input type="number" name="Credit_Utilization_Ratio" step="0.01" required><br>
+        Credit History Age: <input type="number" name="Credit_History_Age" step="0.01" required><br>
+        Payment of Minimum Amount: <input type="text" name="Payment_of_Min_Amount" required><br>
+        Total EMI per Month: <input type="number" name="Total_EMI_per_month" step="0.01" required><br>
+        Amount Invested Monthly: <input type="number" name="Amount_invested_monthly" step="0.01" required><br>
+        Payment Behaviour: <input type="text" name="Payment_Behaviour" required><br>
+        Monthly Balance: <input type="number" name="Monthly_Balance" step="0.01" required><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
